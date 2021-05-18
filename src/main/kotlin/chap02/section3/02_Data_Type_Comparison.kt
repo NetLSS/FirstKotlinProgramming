@@ -6,6 +6,8 @@ fun main() {
     //val b: Double = a //Type mismatch.
     //val c: Int = 1.1 //The floating-point literal does not conform to the expected type Int
 
+    // Java 에서는 서로 다른 자료형 변수를 할당 시 작은 자료형에서 큰 자료형으로 자동 변환
+
     val b: Double = a.toDouble()
 
     val result = 1L + 3 // Long // 표현식 에서는 범위가 큰 자료형으로 자동 형변환
@@ -31,4 +33,5 @@ fun main() {
     A
 
      */
+
 }
